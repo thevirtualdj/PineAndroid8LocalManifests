@@ -44,10 +44,11 @@
   <project path="system/sepolicy" name="system-sepolicy" remote="ayufan" revision="oreo" groups="pdk" />
 
   <!-- Google Apps support -->
-  <project path="vendor/opengapps/asop_build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/opengapps" name="all" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan" />
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/opengapps" name="opengapps" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 
   <!-- SuperSU -->
   <!-- <project path="vendor/supersu" name="vendor-supersu" clone-depth="1" revision="nougat" remote="ayufan" /> -->
